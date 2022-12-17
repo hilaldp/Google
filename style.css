@@ -1,0 +1,28 @@
+
+.links {
+    
+  
+    margin-left:auto;
+    margin-right:auto;
+
+    width:90%;
+
+    background-color:#dedede;
+
+}
+
+.link-1 {
+    float: left;
+    background-color: chartreuse;
+}
+
+.link-2 {
+    float: right;
+    background-color: brown;
+
+}
+
+.link-3 {
+    float: right;
+    background-color: blue;
+}
