@@ -1,28 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+body {
+    width: 100%;
+
+}
+
+nav {
+    font-size: 1rem;
+    padding: 15px 15px 0 15px;
+    width: auto;
+    height: 50px;
+}
+
+.link-left {
+    width: 200px;
+    height: 200px;
+    float: left;
+    left: 0px;
+}
+
+.link-right {
+    width: 200px;
+    height: 200px;
+    float: right;
+    right: 0px;
+}
+
+.link-right button {
+    border-radius: 100%;
+    width: 44px;
+    height: 44px;
+}
+
+.g-menu {
+    width: 33px;
+    height: 33px;
+}
+
+.search-icon {
+    position: absolute;
+    width: 20px;
+}
+
+.vs-icon {
+    position: absolute;
+    width: 20px;
+}
+
+.s-box {
+    height: 100vh;
+    position: relative;
+    padding-left: 35px;
+    padding-right: 35px;
+    max-width: 100%;
+}
+
+main {
+    margin: 20% auto;
+    text-align: center;
+}
+
+.section-1 {
+    margin: auto;
+    width: 50%;
+}
+
+.logo {
+    position: relative;
+    width: 272px;
+    height: 92px;
+    margin: auto;
+}
 
 .links {
-    
-  
-    margin-left:auto;
-    margin-right:auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 
-    width:90%;
+    margin: auto;
+    width: 93%;
+    /* position: relative; */
+    background-color: #000000;
+}
 
-    background-color:#dedede;
-
+footer .link-1 .link-2 .link-3 {
+    height: 47px;
 }
 
 .link-1 {
     float: left;
-    background-color: chartreuse;
+    left: 0px;
+    width: 33.33%;
 }
 
 .link-2 {
-    float: right;
-    background-color: brown;
-
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    display: block;
 }
 
 .link-3 {
     float: right;
-    background-color: blue;
+    right: 0px;
+    width: 33.33%;
+    text-align: right;
 }
