@@ -7,23 +7,11 @@
     font-family: 'Sorts Mill Goudy', serif;
 }
 
-
 nav {
-   
+
     padding: 15px 15px 0 15px;
-
     height: 78px;
-    
-    
 
-}
-
-nav .link-left .link-right {
-    /* height: 48px;
-    line-height: normal;
-    border: 2px solid green;
-    padding-right: 15px;
-     */
 }
 
 .menu-acc {
@@ -34,7 +22,7 @@ nav .link-left .link-right {
 }
 
 .link-left {
-margin-top:10px;
+    margin-top: 10px;
     float: left;
     left: 0px;
 }
@@ -48,7 +36,6 @@ margin-top:10px;
 
 nav a {
     vertical-align: middle;
-   
 }
 
 .link-right button {
@@ -63,9 +50,6 @@ nav a {
     padding: 4px;
 }
 
-
-
-
 .s-box {
     width: 100%;
 
@@ -79,22 +63,22 @@ nav a {
     width: 500px;
     border-radius: 25px;
     padding: 5px 8px 0 14px;
-    height:40px;
+    height: 40px;
 }
 
 .search-icon {
-    
+
     position: relative;
-    top:5px;
-    right:490px;
+    top: 5px;
+    right: 490px;
     width: 1.5rem;
 }
 
 .vs-icon {
     position: relative;
-    top:3px;
+    top: 3px;
     /* left:-60px; */
-    right:60px;
+    right: 60px;
     width: 0.9rem;
 }
 
@@ -104,37 +88,12 @@ nav a {
     height: 30px;
     vertical-align: middle;
 
-    margin:20px auto;
-
-
+    margin: 20px auto;
 }
 
-/* 
-.s-btn {
-    margin: 11px 4px;
-    padding: 0px 16px;
-    border: 1px solid red;
-    position: absolute;
-
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-family: arial,sans-serif;
-    font-size: 14px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
-} */
 .btn-ifl {
-
-
     margin-left: 10px;
 }
-
 
 
 main {
@@ -143,11 +102,8 @@ main {
 }
 
 .section-1 {
-    margin-bottom:15px;
-    /* max-height: 290px;
-    height: calc(100% - 560px);
-    margin-top: 20px; */
-    /* margin:5000px auto 5000; */
+    margin-bottom: 15px;
+
 }
 
 .section-2 {
@@ -168,15 +124,9 @@ main {
 }
 
 .links {
-    /* margin-left: auto;
-    margin-right: auto; */
-
     margin: auto;
-    /* width: 93%; */
     width: 100%;
-    /* position: relative; */
     background-color: #1e1e1e5d;
-    /* max-width: 1200px; */
     padding: 0 20px;
 }
 
