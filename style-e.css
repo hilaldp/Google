@@ -12,6 +12,7 @@ nav {
 
     padding: 15px 0 0 15px;
     height: 78px;
+   
 
 }
 a{
@@ -20,7 +21,7 @@ a{
 }
 a:link, a:visited {
    
-    color: #fff; 
+    color: #142b45;
     
     text-decoration: none; 
     font-size: 16px;
@@ -29,14 +30,14 @@ a:link, a:visited {
 a:hover, a:active {
 
     opacity: 1.5;
-    text-decoration:underline rgba(255, 255, 255, 0.934);
-    color:#bdc1c6;
+    text-decoration:underline rgba(255, 255, 255, 0.279);
+    color: #0e1f32;
 }
 button:hover {
     box-shadow: 3px 1px 3px rgb(23 23 23 / 24%);
     background-color: #303134;
-    border: 1px solid #3031344f;
-    color: #e8eaed;
+    border: 1px solid #1f436b;
+    color: #afcae8;
 }
 .menu-acc {
     display: block;
@@ -84,14 +85,15 @@ nav a {
 }
 input:hover, select:hover {
     border-color: transparent;
-    border-color: 0 0 0 5px #65676d;
+    border-color: 0 0 0 5px #050b13;
     font-size: 16px;
+    color:#303134;
   }
   textarea:focus, input:focus{
     outline: 0;
-    color:#e8eaed;
+    color:#ffffff;
     font-size: 15px;
-    background-color: #30313461;
+    background-color: #a9c6e6;
 }
 .s-input {
     width: 43%;
@@ -99,8 +101,8 @@ input:hover, select:hover {
     padding: 5px 18px 10px 54px;
     height: 5%;
     background-color: transparent;
-    color:#bdc1c6;
-    border:1px solid #bdc1c6;
+    color:#303134;
+    border:1px solid #89b1dd;
 }
 
 .search-icon {
@@ -119,9 +121,10 @@ input:hover, select:hover {
 }
 
 .btn * {
-    background-color: #30313479;
-    color: #e8eaed;
-    border: 1px solid #303134;
+    text-shadow: 0.3px 0.3px #4483c9;
+    background-color: #a9c6e6;
+    color: #03070c;
+    border: 1px solid #afcae8;
     font-family: arial,sans-serif;
     font-size: 15px;
     margin: 45px 2px;
@@ -146,8 +149,8 @@ input:hover, select:hover {
     margin-left: 10px;
     }
 body{
-    background-color: rgba(32,33,36,1);
-    color: #bdc1c6;
+    background-color: #d5e3f3;
+    color: #050b13;
 }
 
 main {
@@ -174,6 +177,7 @@ main {
 }
 
 .logo {
+    filter: drop-shadow(0 1px 1px #222);
     position: relative;
     width: 250px;
     height: 92px;
@@ -186,7 +190,7 @@ main {
     position:relative;
     margin: 0px auto 40px;
     width: 100%;
-    background-color: #1e1e1e5d;
+    background-color: #d5e3f3;
     padding: 10px 10px;
    
 }
@@ -196,7 +200,7 @@ footer{
     margin-top:29%;
     padding:5px;
     height:100%;
-    color: #999da2;
+    color: #050b13;
     
 
 }
@@ -206,10 +210,13 @@ footer .link-1 .link-2 .link-3 {
     
 }
 footer-top{
-    border-bottom: 1px solid #3c4043;
+    
+    border-bottom: 1px solid #d5e3f3;
 }
 
-
+h4{
+    color: #0e1f32;
+}
 .link-1 {
     float: left;
     left: 0px;
